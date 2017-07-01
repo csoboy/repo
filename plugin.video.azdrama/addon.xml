@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon
   id="plugin.video.azdrama"
-  version="1.0.32"
+  version="1.0.33"
   name="azdrama.net"
   provider-name="Dknight (maintained by cthlo/csoboy)">
   <requires>
@@ -19,5 +19,11 @@
     <summary>azdrama.net</summary>
     <description>Watch azdrama.net (Chinese)Videos</description>
     <platform>all</platform>
+  </extension>
+  <extension point="xbmc.addon.repository"
+              name="private add-on repository">
+    <info compressed="true">https://github.com/csoboy/repo/blob/master/addons.xml</info>
+    <checksum>https://github.com/csoboy/repo/blob/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/csoboy/repo</datadir>
   </extension>
 </addon>

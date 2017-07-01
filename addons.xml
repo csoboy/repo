@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.azdrama" name="azdrama.net" provider-name="Dknight (maintained by cthlo/csoboy)" version="1.0.32">
+<addons><addon id="plugin.video.azdrama" name="azdrama.net" provider-name="Dknight (maintained by cthlo/csoboy)" version="1.0.33">
   <requires>
         <import addon="xbmc.python" optional="true" version="2.1.0" />
 		<import addon="script.module.html5lib" version="0.999.0" />
@@ -14,5 +14,10 @@
     <summary>azdrama.net</summary>
     <description>Watch azdrama.net (Chinese)Videos</description>
     <platform>all</platform>
+  </extension>
+  <extension name="private add-on repository" point="xbmc.addon.repository">
+    <info compressed="true">https://github.com/csoboy/repo/blob/master/addons.xml</info>
+    <checksum>https://github.com/csoboy/repo/blob/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/csoboy/repo</datadir>
   </extension>
 </addon></addons>
