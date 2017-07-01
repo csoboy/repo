@@ -16,8 +16,8 @@
     <platform>all</platform>
   </extension>
   <extension name="private add-on repository" point="xbmc.addon.repository">
-    <info compressed="true">https://github.com/csoboy/repo/blob/master/addons.xml</info>
-    <checksum>https://github.com/csoboy/repo/blob/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://github.com/csoboy/repo</datadir>
+    <info compressed="true">https://raw.githubusercontent.com/csoboy/repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/csoboy/repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master</datadir>
   </extension>
 </addon></addons>
