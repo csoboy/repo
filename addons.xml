@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.azdrama" name="azdrama.net" provider-name="Dknight (maintained by csoboy)" version="1.0.37">
+<addons><addon id="plugin.video.azdrama" name="azdrama.net" provider-name="Dknight (maintained by csoboy)" version="1.0.38">
   <requires>
         <import addon="xbmc.python" optional="true" version="2.1.0" />
 		<import addon="script.module.html5lib" version="0.999.0" />
-		<import addon="script.module.beautifulsoup4" version="4.3.2" />
-		<import addon="script.module.simplejson" />
+    		<import addon="script.module.beautifulsoup4" version="4.3.2" />
+    		<import addon="script.module.requests" version="2.12.4" />
+ 		<import addon="script.module.simplejson" />
 		<import addon="script.module.t0mm0.common" version="1.1.0" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource">
