@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.azdrama" version="1.0.0" name="azdrama" provider-name="csoboy">
+	<extension point="xbmc.addon.repository" name="azdrama">
+		<info compressed="false">https://raw.githubusercontent.com/csoboy/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/csoboy/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">azdrama</summary>
+		<description lang="en">azdrama</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
