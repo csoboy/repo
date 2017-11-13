@@ -21,7 +21,7 @@
     <checksum>https://raw.githubusercontent.com/csoboy/repo/master/addons.xml.md5</checksum>
     <datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master</datadir>
   </extension>
-</addon><addon id="plugin.video.icdrama" name="Icdrama" provider-name="aznhusband, General-Meow, dumbo0001, cthlo" version="1.6.0">
+</addon><addon id="plugin.video.icdrama" name="Icdrama" provider-name="aznhusband, General-Meow, dumbo0001, cthlo" version="1.7.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.html5lib" version="0.999.0" />
