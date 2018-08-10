@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.azdrama" name="azdrama.net" provider-name="Dknight (maintained by csoboy)" version="1.0.52">
+<addons><addon id="plugin.video.azdrama" name="azdrama.net" provider-name="Dknight (maintained by csoboy)" version="1.0.53">
   <requires>
         <import addon="xbmc.python" optional="true" version="2.1.0" />
 		<import addon="script.module.html5lib" version="0.999.0" />
