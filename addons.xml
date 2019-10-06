@@ -21,7 +21,7 @@
     <checksum>https://raw.githubusercontent.com/csoboy/repo/master/addons.xml.md5</checksum>
     <datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master</datadir>
   </extension>
-</addon><addon id="plugin.video.icdrama" name="Icdrama" provider-name="aznhusband, dumbo0001, boleanly, mugol, General-Meow, cthlo" version="1.9.4">
+</addon><addon id="plugin.video.icdrama" name="Icdrama" provider-name="aznhusband, dumbo0001, boleanly, mugol, General-Meow, cthlo" version="1.9.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.html5lib" version="0.999.0" />
@@ -50,47 +50,4 @@
 		<description lang="en">azdrama</description>
 		<platform>all</platform>
 	</extension>
-</addon><addon id="repository.exodus" name="Exodus repository" provider-name="Exodus" version="4.0.0">
-	<extension name="Exodus repository" point="xbmc.addon.repository">
-	<dir>
-		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-	</dir>
-
-    <dir>
-		<info compressed="false">https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml</info>
-		<checksum>https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/nrwzum/freelance/raw/master/fun-stuff/</datadir>
-    </dir>
-    <dir>
-		<info compressed="false">https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/addons.xml</info>
-		<checksum>https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/</datadir>
-    </dir>
-    <dir>
-		<info compressed="false">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml</info>
-		<checksum>https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/</datadir>
-    </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus repository</summary>
-		<description lang="en">Exodus repository</description>
-		<platform>all</platform>
-		<forum>https://www.tvaddons.co/forums</forum>
-        <website>https://www.tvaddons.co</website>
-	</extension>
-</addon><addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" provider-name="kodil" version="1.3.0">
-    <extension name=".Kodil  Repository " point="xbmc.addon.repository">
-        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>kodisrael repository</summary>
-        <description>kodil repository - the most extensive repository in isrl </description>
-        <description>הריפו של קודישראל - מאגר ההרחבות הגדול והאיכותי בישראל  </description>
-        <platform>all</platform>
-    </extension>
 </addon></addons>
