@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon
   id="plugin.video.azdrama"
-  version="1.0.74"
+  version="1.0.75"
   name="azdrama.net"
   provider-name="Dknight (maintained by csoboy)">
   <requires>
