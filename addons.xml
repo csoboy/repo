@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.azdrama" name="azdrama.net" provider-name="Dknight (maintained by csoboy)" version="1.0.76">
+<addons><addon id="plugin.video.azdrama" version="1.0.77" name="azdrama.net" provider-name="Dknight (maintained by csoboy)">
   <requires>
-        <import addon="xbmc.python" optional="true" version="2.1.0" />
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
 		<import addon="script.module.html5lib" version="0.999.0" />
     		<import addon="script.module.beautifulsoup4" version="4.3.2" />
     		<import addon="script.module.requests" version="2.12.4" />
  		<import addon="script.module.simplejson" />
 		<import addon="script.module.t0mm0.common" version="1.1.0" />
   </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
+  <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -16,31 +16,13 @@
     <description>Watch azdrama.net (Chinese)Videos</description>
     <platform>all</platform>
   </extension>
-  <extension name="private add-on repository" point="xbmc.addon.repository">
+  <extension point="xbmc.addon.repository" name="private add-on repository">
     <info compressed="true">https://raw.githubusercontent.com/csoboy/repo/master/addons.xml</info>
     <checksum>https://raw.githubusercontent.com/csoboy/repo/master/addons.xml.md5</checksum>
     <datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master</datadir>
   </extension>
-</addon><addon id="plugin.video.icdrama" name="Icdrama" provider-name="aznhusband, dumbo0001, s_h, boleanly, mugol, General-Meow, cthlo" version="2.2.2">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.html5lib" version="0.999.0" />
-    <import addon="script.module.beautifulsoup4" version="4.3.2" />
-    <import addon="script.module.requests" version="2.9.1" />
-    <import addon="script.module.resolveurl" version="5.0.38" />
-  </requires>
-  <extension library="addon.py" point="xbmc.python.pluginsource">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Dramas, shows, and movies from icdrama.se</summary>
-    <description>Provides contents from icdrama.se. "Happy wife, happy life"</description>
-    <disclaimer>This addon is not affiliated with icdrama.se</disclaimer>
-    <platform>all</platform>
-    <license>MIT License</license>
-  </extension>
-</addon><addon id="repository.azdrama" name="azdrama" provider-name="csoboy" version="1.0.0">
-	<extension name="azdrama" point="xbmc.addon.repository">
+</addon><addon id="repository.azdrama" version="1.0.0" name="azdrama" provider-name="csoboy">
+	<extension point="xbmc.addon.repository" name="azdrama">
 		<info compressed="false">https://raw.githubusercontent.com/csoboy/repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/csoboy/repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master/</datadir>
