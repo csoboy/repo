@@ -42,11 +42,18 @@
         <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="repository.azdrama" version="1.0.0" name="azdrama" provider-name="csoboy">
+</addon><addon id="repository.azdrama" version="1.0.1" name="azdrama" provider-name="csoboy">
 	<extension point="xbmc.addon.repository" name="azdrama">
-		<info compressed="false">https://raw.githubusercontent.com/csoboy/repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/csoboy/repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master/</datadir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/csoboy/repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/csoboy/repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/groggyegg/lime/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/groggyegg/lime/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/groggyegg/lime/master</datadir>
+        </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">azdrama</summary>
