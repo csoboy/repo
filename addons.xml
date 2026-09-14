@@ -23,7 +23,7 @@
     	<datadir zip="true">https://raw.githubusercontent.com/csoboy/repo/master</datadir>
     </dir>
   </extension>
-</addon><addon id="plugin.video.icdrama" version="2.3.7" name="Icdrama" provider-name="aznhusband, dumbo0001, s_h, boleanly, mugol, General-Meow, cthlo, soraxas, andya4">
+</addon><addon id="plugin.video.icdrama" version="2.3.8" name="Icdrama" provider-name="aznhusband, dumbo0001, s_h, boleanly, mugol, General-Meow, cthlo, soraxas, andya4">
   <requires>
     <import addon="script.module.html5lib" version="0.999.0" />
     <import addon="script.module.beautifulsoup4" version="4.3.2" />
